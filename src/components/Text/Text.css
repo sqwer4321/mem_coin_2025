@@ -1,0 +1,49 @@
+.text_body {
+    position: relative;
+    padding: 100px 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+    .text_body {
+        position: relative;
+        padding: 0px 0;
+        max-width: 100%;
+        overflow: hidden;
+        margin-bottom: 50px;
+    } 
+}
+
+.animate_text {
+    white-space: nowrap;
+    font-size: 80px;
+    font-weight: 700;
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    padding-right: 100%;
+    animation: scroll-text 50s linear infinite;
+}
+
+@media screen and (max-width: 500px) {
+    .animate_text {
+        white-space: nowrap;
+        font-size: 28px;
+        font-weight: 700;
+        color: #ffffff;
+        display: inline-block;
+        position: relative;
+        padding-right: 100%;
+        animation: scroll-text 50s linear infinite;
+    }
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

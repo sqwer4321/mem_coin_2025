@@ -1,0 +1,143 @@
+.header {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 975px;
+    padding: 0.5rem 0.6rem;
+    background: rgba(0, 0, 0, 0) !important;
+    border-radius: 100vw;
+    margin-top: 1rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
+}
+
+@media screen and (max-width: 1280px) {
+    .header {
+        position: absolute;
+        width: calc(100% - 100px);
+        padding: 0.5rem 50px;
+        background: rgba(0, 0, 0, 0) !important;
+        margin-top: 1rem;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 999;
+        box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
+    } 
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        position: absolute;
+        width: calc(100% - 30px);
+        padding: 0.5rem 15px;
+        background: rgba(0, 0, 0, 0) !important;
+        margin-top: 1rem;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 999;
+        box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
+    } 
+}
+
+.header .block {
+    display: flex;
+    align-items: center;
+}
+
+.header .block svg {
+    transition: .3s ease;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.header .block svg:hover {
+    transform: scale(1.04);
+}
+
+.header .block img {
+    width: 103px;
+    height: auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .header .block img {
+        width: 64px;
+        height: auto;
+        cursor: pointer;
+    } 
+}
+
+.header .block span {
+    font-size: 14px;
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+.header .block a {
+    text-decoration: none;
+}
+
+.header .block a .link {
+    padding: 14px;
+    border-radius: 1rem;
+    margin: 0px 5px;
+    transition: .3s ease;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 820px) {
+    .header .block a .link {
+        display: none;
+    }
+}
+
+.header .block a .link:hover {
+    transform: scale(1.04);
+    color: #B254AA;
+}
+
+.header .block a .butt {
+    padding: 1.25rem 2rem;
+    border-radius: 1.5rem;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    transition: .3s ease;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .header .block a .butt {
+        padding: 15px 20px;
+        border-radius: 15px;
+        margin-left: 10px;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #fff;
+        transition: .3s ease;
+        font-weight: 600;
+        cursor: pointer;
+    } 
+}
+
+.header .block a .butt:hover {
+    transform: scale(1.04);
+}
+
+@media screen and (max-width: 720px) {
+
+}

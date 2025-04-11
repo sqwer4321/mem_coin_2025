@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #141313;
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+}
+
+#root {
+    position: relative;
+}
